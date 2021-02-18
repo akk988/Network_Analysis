@@ -13,6 +13,7 @@ int main()
 {
     //  ** The Client **
     //	Create a socket
+    printf(" The Client ist strating . . .\n\n");
     int sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock == -1)
     {
